@@ -1,5 +1,8 @@
 <template>
-  <div :style="textStyle()">{{ randomQuote() }}</div>
+  <div>
+    <div :style="textStyle()">{{ randomQuote() }}</div>
+    <div :style="textStyle()">{{ randomQuote() }}</div>
+  </div>
 </template>
 
 <script>
